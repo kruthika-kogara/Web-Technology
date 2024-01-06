@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms webpage</title>
+    <style>
+        body{background-color: rgba(188, 177, 177, 0.452);}
+        #i1{background-color: rgb(187, 183, 183);}
+        #i2{background-color: rgb(187, 183, 183);}
+        #i3{background-color: rgb(187, 183, 183);}
+    </style>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <fieldset id="i1">
+        <legend><h3>User details</h3></legend>
+        <form action="">
+            <label for="">FIRST NAME:</label>
+            <input type="text" size="40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">MIDDLE NAME:</label>
+            <input type="text" size="40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="">LAST NAME:</label>
+            <input type="text" size="40px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+            <div>
+                <label for="">PHONE NO:</label>
+                <input type="number" size1="10px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div><br>
+            <div>
+                <label for="">DOB:</label>
+                <input type="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div><br>
+            <div>
+                <label for="">GENDER:</label><br>
+                <input type="radio" value="a">Male
+                <input type="radio" value="a">Female
+                <input type="radio" value="a">Other
+            </div>
+        </form>
+    </fieldset><br>
+    <fieldset id="i2">
+        <legend><h3>Personal details</h3></legend>
+        <form action=""></h4>
+            <div>
+                <label for="">CURRENT ADDRESS:</label>
+                <textarea cols="25" rows="5"></textarea>
+                <label for="">NATIVE ADDRESS:</label>
+                <textarea cols="25" rows="5"></textarea>
+            </div><br>
+            <div>
+                <label for="">PIN CODE:</label>
+                <input type="number">
+            </div><br>
+            <div>
+                <label for="">AADHAR CARD NO:</label>
+                <input type="number" size="12px">
+            </div><br>
+            <div>
+                <label for="">PAN CARD NO:</label>
+                <input type="number" size="12px">
+            </div><br>
+        </form>
+    </fieldset><br>
+    <fieldset id="i3">
+        <legend><h3>Professional details</h3></legend>
+        <form action="">
+            <label for="">EDUCATIONAL QUALIFICATIONS:</label><br>
+            <P>select the current and completed course </P>
+            <input type="radio" name="a">10th <br><br>
+            <label for="">upload the 10th marks memo:</label><br><br>
+            <input type="file"><br><br>
+            <input type="radio" name="b">Inter/Diploma <br><br>
+            <label for="">upload the Inter/Diploma marks memo:</label><br><br>
+            <input type="file"><br><br>
+            <input type="radio" name="c">B-Tech <br><br>
+            <label for="">upload the recently completed semister marks memo:</label><br><br>
+            <input type="file"><br><br>
+            <input type="radio" name="c">Other <br><br>
+            <label for="">upload the marks memo of that file:</label><br><br>
+            <input type="file"><br><br>
+            <label for="">TECHNOLOGIES YOU KNOW:</label><br>
+            <input type="checkbox">Python <br>
+            <input type="checkbox">Java <br>
+            <input type="checkbox">JavaScript <br>
+            <input type="checkbox">C++ <br>
+            <input type="checkbox">Others <br>
+            <input type="text"> other than above mentioned technologies,name if any  other <br><br>
+            <label for="">ANY PROJECTS YOU HAVE COMPLETED:</label><br><br>
+            <input type="file" multiple> <br><br>
+            <label for="">ANY INTERNSHIPS YOU HAVE COMPLETED:</label><br><br>
+            <input type="file" multiple> <br><br>
+            <input type="checkbox"> Above filled details are correct <br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="cancel">
+        </form>
+    </fieldset>
+
+</body>
+</html>
